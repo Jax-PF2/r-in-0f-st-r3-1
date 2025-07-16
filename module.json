@@ -1,8 +1,11 @@
 {
   "id": "rain-of-stars-convergence",
   "title": "Rain of Stars: Convergence",
-  "version": "0.001",
-  "compatibility": {
+   "url": "https://github.com/Jax-PF2/r-in-0f-st-r3-1",
+   "manifest": "https://raw.githubusercontent.com/Jax-PF2/r-in-0f-st-r3-1/master/module.json",
+   "download": "https://github.com/Jax-PF2/r-in-0f-st-r3-1/archive/refs/heads/main.zip"  ,
+   "version": "0.001",
+   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
