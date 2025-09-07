@@ -1,6 +1,6 @@
 {
-  "id": "rain-of-stars-convergence",
-  "title": "Rain of Stars: Convergence",
+  "id": "rain-of-stars",
+  "title": "Rain of Stars",
    "url": "https://github.com/Jax-PF2/r-in-0f-st-r3-1",
    "manifest": "https://raw.githubusercontent.com/Jax-PF2/r-in-0f-st-r3-1/master/module.json",
    "download": "https://github.com/Jax-PF2/r-in-0f-st-r3-1/archive/refs/heads/main.zip"  ,
@@ -11,7 +11,7 @@
   },
   "authors": [
     {
-      "name": "Jax",
+      "name": "Paul Steen (Jax)",
       "email": "jax.pathfinder2e@gmail.com",
       "flags": {}
     }
@@ -22,7 +22,7 @@
   "packs": [
     {
       "name": "actors",
-      "label": "Rain of Stars: Convergence Actors",
+      "label": "Rain of Stars Actors",
       "path": "packs/actors",
       "type": "Actor",
       "ownership": {
@@ -34,7 +34,7 @@
     },
     {
       "name": "scenes",
-      "label": "Rain of Stars: Convergence Scenes",
+      "label": "Rain of Stars Scenes",
       "path": "packs/scenes",
       "type": "Scene",
       "ownership": {
@@ -46,7 +46,7 @@
     },
     {
       "name": "items",
-      "label": "Rain of Stars: Convergence Items",
+      "label": "Rain of Stars Items",
       "path": "packs/items",
       "type": "Item",
       "ownership": {
