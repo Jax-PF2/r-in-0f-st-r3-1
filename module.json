@@ -1,0 +1,95 @@
+{
+  "id": "rain-of-stars",
+  "title": "Rain of Stars",
+  "url": "https://github.com/Jax-PF2/r-in-0f-st-r3-1",
+  "manifest": "https://raw.githubusercontent.com/Jax-PF2/r-in-0f-st-r3-1/master/module.json",
+  "download": "https://github.com/Jax-PF2/r-in-0f-st-r3-1/archive/refs/heads/main.zip"  ,
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Foundry module for Paul Steen's \"Rain of Stars\" adventure sold on Pathfinder Infinite.</p>",
+  "authors": [
+    {
+      "name": "Paul Steen",
+      "email": "jax.pathfinder2e@gmail.com",
+      "discord": "jax",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "actors",
+      "label": "Rain of Stars Actors",
+      "path": "packs/actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Rain of Stars Items",
+      "path": "packs/items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "journal",
+      "label": "Rain of Stars Journal",
+      "path": "packs/journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "scenes",
+      "label": "Rain of Stars Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "sf2e-anachronism",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pf2e-tokens-npc-core",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-tokens-bestiaries",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
